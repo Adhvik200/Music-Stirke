@@ -45,7 +45,6 @@ token = "You're Bot Token here"
 - To start the bot :
 
 ```
-#With Node
 node index.js
 ```
 
