@@ -8,7 +8,7 @@ Well, let's start by downloading the code.
 Go to the folder `config` then the file `bot.js`.
 For the bot to be able to start, please complete the file with your credentials as follows :
 
-- For emojis
+# For emojis
 
 ```js
 emojis: {
@@ -20,7 +20,7 @@ emojis: {
 }
 ```
 
-- For configuration
+# For configuration
 
 ```js
 discord: {
@@ -33,7 +33,7 @@ discord: {
 - `prefix`, the prefix that will be set to use the bot.
 - `activity`, the activity of the bot.
 
-- For Client Login
+# For Client Login
 
 Make an `.env` file and
 ```js
@@ -41,14 +41,12 @@ token = "You're Bot Token here"
 ```
 - `token`, the token of the bot available on the [Discord Developers Portal](https://discordapp.com/developers/applications) section.
 
-In the console, type `npm install` to install all dependencies.
 
 - To start the bot :
 
 ```
 #With Node
 node index.js
-npm start #Indicated in package.json
 ```
 
 All you have to do is turn on your bot !
