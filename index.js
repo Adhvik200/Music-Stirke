@@ -38,4 +38,4 @@ for (const file of player) {
     client.player.on(file.split(".")[0], event.bind(null, client));
 };
 
-client.login(token);
+client.login(process.env.token);
