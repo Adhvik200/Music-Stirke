@@ -5,7 +5,6 @@ const client = new discord.Client({ disableMentions: 'everyone' });
 
 const { Player } = require('discord-player');
 
-const token = require(process.env.token);
 
 client.player = new Player(client);
 client.config = require('./config/bot');
