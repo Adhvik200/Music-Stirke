@@ -11,7 +11,10 @@ module.exports = {
 
         if (!client.player.getQueue(message)) return message.channel.send(`${client.emotes.error} - No music currently playing !`);
 
-        const filtersStatuses = [[], []];
+        const filtersStatuses = [
+            [],
+            []
+        ];
 
         client.filters.forEach((filterName) => {
             const array = filtersStatuses[0].length > filtersStatuses[1].length ? filtersStatuses[1] : filtersStatuses[0];
@@ -21,7 +24,7 @@ module.exports = {
         message.channel.send({
             embed: {
                 color: 'ORANGE',
-                footer: { text: 'This bot uses a Github project made by Zerio (ZerioDev/Music-bot)' },
+                footer: { text: 'Made by Adhvik' },
                 fields: [
                     { name: 'Filters', value: filtersStatuses[0].join('\n'), inline: true },
                     { name: '** **', value: filtersStatuses[1].join('\n'), inline: true },

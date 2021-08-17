@@ -13,7 +13,7 @@ module.exports = {
                 embed: {
                     color: 'ORANGE',
                     author: { name: 'Help pannel' },
-                    footer: { text: 'Adhvik' },
+                    footer: { text: 'Made by Adhvik' },
                     fields: [
                         { name: 'Bot', value: infos },
                         { name: 'Music', value: music },
